@@ -35,9 +35,9 @@ class ImageViewer extends Frame {
 
 public class App{
     public static void main(String[] args ) throws IOException {
-        //BufferedImage bufferedImage = ImageIO.read(System.in);
-        String path = "/Users/jianxun/Downloads/captcha-image.jpeg";
-        BufferedImage bufferedImage = ImageIO.read(new FileInputStream(path));
+        BufferedImage bufferedImage = ImageIO.read(System.in);
+        // String path = "/Users/jianxun/Downloads/captcha-image.jpeg";
+        // BufferedImage bufferedImage = ImageIO.read(new FileInputStream(path));
         ImageViewer iv = new ImageViewer(bufferedImage);
         iv.launchFrame();
     }
