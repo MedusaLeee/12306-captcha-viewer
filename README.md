@@ -8,4 +8,4 @@
 
 ### 效果
 
-![示例](./resource/ex.png =293*350)
+![示例](./resource/ex.png)
